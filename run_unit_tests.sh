@@ -16,7 +16,7 @@
 set -x
 
 # environment
-export AIRFLOW_HOME=${AIRFLOW_HOME:=~/airflow}
+export AIRFLOW_HOME=~/airflow_test
 export AIRFLOW__CORE__UNIT_TEST_MODE=True
 
 # configuration test
